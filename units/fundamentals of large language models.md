@@ -35,3 +35,24 @@ A Decoder is a core component in AI models. Its role is to transform the latent 
    * If you have Encoder + Decoder → you get a complete system: it understands + explains.
 
    ![decoder](../images/en_de.png)
+
+## What Chain of Thought (CoT)?
+
+   * Chain of Thought (CoT) = the model (or a human) doesn’t jump straight to the final answer.
+
+   * Instead → it writes out or “thinks” through a series of logical steps.
+
+   * This makes the answer more accurate, especially for math, logic, programming, etc.
+
+🔹 Example:
+    * Question: “You have 2 apples + 3 apples, how many in total?”
+
+    * Without CoT: Answer = 5.
+
+    * With CoT: “First I have 2 apples, then I add 3 apples, total = 5.”
+
+   * So simply: CoT = step-by-step reasoning.
+
+
+    ![chain](../images/chain_thougth.png)
+  
