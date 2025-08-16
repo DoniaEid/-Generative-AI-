@@ -34,4 +34,4 @@ A Decoder is a core component in AI models. Its role is to transform the latent 
 
    * If you have Encoder + Decoder → you get a complete system: it understands + explains.
 
-   ![decoder](../images/encoder and decoder.png)
+   ![decoder](../images/en_de.png)
