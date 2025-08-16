@@ -51,8 +51,8 @@ A Decoder is a core component in AI models. Its role is to transform the latent 
 
     * With CoT: “First I have 2 apples, then I add 3 apples, total = 5.”
 
-   * So simply: CoT = step-by-step reasoning.
+    * So simply: CoT = step-by-step reasoning.
 
 
-    ![chain](../images/chain_thougth.png)
+    ![chain](../images/chain.png)
   
