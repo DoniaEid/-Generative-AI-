@@ -45,14 +45,14 @@ A Decoder is a core component in AI models. Its role is to transform the latent 
    * This makes the answer more accurate, especially for math, logic, programming, etc.
 
 🔹 Example:
-    * Question: “You have 2 apples + 3 apples, how many in total?”
+    * Question: You have 2 apples + 3 apples, how many in total?
 
     * Without CoT: Answer = 5.
 
-    * With CoT: “First I have 2 apples, then I add 3 apples, total = 5.”
+    * With CoT: First I have 2 apples, then I add 3 apples, total = 5.
 
     * So simply: CoT = step-by-step reasoning.
 
 
-    ![chain](../images/chain.png)
+    ![chain](../images/chain_th.png)
   
