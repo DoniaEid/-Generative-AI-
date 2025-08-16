@@ -27,7 +27,7 @@ A Decoder is a core component in AI models. Its role is to transform the latent 
   ![decoder](../images/decoder.png)
 
 
-##What the differance between Encoder only and Decoder only and Encoder + Decoder ?
+## What the differance between Encoder only and Decoder only and Encoder + Decoder ?
    * If you have Encoder only → you just have an "information storage" without producing understandable output.
 
    * If you have Decoder only → you have a "generator" but it cannot work without some input information.
