@@ -5,4 +5,4 @@
 
   * Output: A numerical vector that summarizes the meaning or important features of the data.
 
-  [!encoder](../images/encoder.png)
+  ![encoder](../images/encoder.png)
