@@ -162,7 +162,33 @@ FACT:
 
 
 
+## What REACT (in the context of Generative AI)?
 
+   * Here, it’s not the web library React, but REACT = Reasoning + Acting.
+
+   * It’s a framework or approach for generative AI where the model:
+
+Reasoning → thinks and plans step by step.
+
+Acting → takes actions, like using external tools or APIs.
+
+Goal: Make the model not only generate text but also act intelligently to solve complex problems.
+
+## What is Toolformer?
+
+   * In the context of Generative AI:
+
+   * It’s a generative AI model that learns automatically when to use external tools (e.g., search engines, calculators, translation tools) while generating content.
+
+   * Example: If the model is asked a math question, instead of calculating it itself, it can use a calculator to get the correct answer.
+
+## What Bootstrapped Reasoning?
+
+   * A method to teach generative AI to solve complex problems step by step by reviewing simpler solutions.
+
+   * Idea: The model starts by solving simple problems → uses those solutions as examples → improves itself to solve harder problems without direct human guidance.
+
+   * Goal: Increase the model’s accuracy in reasoning and logical thinking.
 
 
 
