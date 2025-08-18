@@ -191,5 +191,6 @@ Goal: Make the model not only generate text but also act intelligently to solve 
    * Goal: Increase the model’s accuracy in reasoning and logical thinking.
 
 
-
+ ![least](../images/language_agents.png
+)
 
