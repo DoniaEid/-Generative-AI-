@@ -110,3 +110,29 @@ Direct Prompt Injection
    * It can produce dangerous outputs (malicious code, harmful links).
 
 
+High temperature → more creative/diverse text
+
+   * The model is less focused on the most probable word.
+
+   * It can choose less likely words, producing unexpected or varied sentences.
+
+Example:
+
+    * Low temperature (0.2): The cat sat on the mat.
+
+    * High temperature (1.5):
+
+          * The cat danced across the rooftop.
+
+          * The cat whispered secrets to the moon.
+
+🔹 Summary: Higher temperature = more creativity, more variety.
+
+
+ ## What Temperature Means in AI
+
+   * It’s a number you set to control the model’s randomness when generating text.
+
+   * Lower number → the model focuses on the most probable words (more deterministic).
+
+   * Higher number → the model becomes more creative and random, even less probable words may appear.
