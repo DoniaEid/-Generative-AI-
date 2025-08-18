@@ -49,13 +49,13 @@ A Decoder is a core component in AI models. Its role is to transform the latent 
 
  Least to Most Prompting in AI means:
 
-    * Least prompting → a short, vague instruction.
+     * Least prompting : a short, vague instruction.
 
-    * Most prompting → a very detailed, step-by-step instruction.
+     * Most prompting : a very detailed, step-by-step instruction.
 
 👉 The more details you give in your prompt, the better and clearer the AI’s response will be.
 
- ![least](../images/least to most.png)
+ ![least](../images/least_most.png)
 
 
 ## What Step back prompting?
