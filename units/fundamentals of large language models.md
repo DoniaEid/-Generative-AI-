@@ -118,9 +118,9 @@ Direct Prompt Injection
 
 Example:
 
- *Low temperature (0.2): The cat sat on the mat.
+  *Low temperature (0.2): The cat sat on the mat.
 
- *High temperature (1.5):
+  *High temperature (1.5):
 
  The cat danced across the rooftop.
 
@@ -130,11 +130,11 @@ Example:
 
 ## What Temperature Means in AI?
 
-   *It’s a number you set to control the model’s randomness when generating text.
+  *It’s a number you set to control the model’s randomness when generating text.
 
-   *Lower number → the model focuses on the most probable words (more deterministic).
+  *Lower number → the model focuses on the most probable words (more deterministic).
 
-   *Higher number → the model becomes more creative and random, even less probable words may appear.
+  *Higher number → the model becomes more creative and random, even less probable words may appear.
 
 
 ## What Meaning of Hallucination in LLMs?
@@ -144,17 +144,17 @@ In other words, the model “makes up” answers or data that don’t exist or a
 
 Examples:
 
-*Asking the model for a famous person’s birth date → it gives an incorrect date.
+  *Asking the model for a famous person’s birth date → it gives an incorrect date.
 
-*Asking for a book name → it invents a book that doesn’t exist.
+  *Asking for a book name → it invents a book that doesn’t exist.
 
 ## Why Hallucination in LLMs happens?
 
- *The model relies on probabilities of the next words.
+  *The model relies on probabilities of the next words.
 
- *If the context is unclear or the model is uncertain, it may choose an incorrect word or sentence → hallucination.
+  *If the context is unclear or the model is uncertain, it may choose an incorrect word or sentence → hallucination.
 
- *The more precise and factual the information requested, the more accurate the output; the more vague or general the request, the higher the chance of hallucination.
+  *The more precise and factual the information requested, the more accurate the output; the more vague or general the request, the higher the chance of hallucination.
   
 
 FACT:
