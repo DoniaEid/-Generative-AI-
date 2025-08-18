@@ -128,8 +128,7 @@ Example:
 
 🔹 Summary: Higher temperature = more creativity, more variety.
 
-
- ## What Temperature Means in AI
+## What Temperature Means in AI
 
    * It’s a number you set to control the model’s randomness when generating text.
 
@@ -144,13 +143,13 @@ Example:
 
     In other words, the model “makes up” answers or data that don’t exist or are wrong.
 
-🔹 Examples
+ Examples
 
     * Asking the model for a famous person’s birth date → it gives an incorrect date.
 
     * Asking for a book name → it invents a book that doesn’t exist.
 
-## Why  Hallucination in LLMs happens?
+## Why Hallucination in LLMs happens?
 
     * The model relies on probabilities of the next words.
 
