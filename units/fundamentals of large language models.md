@@ -43,7 +43,7 @@ A Decoder is a core component in AI models. Its role is to transform the latent 
    * Instead → it writes out or “thinks” through a series of logical steps.
 
    * This makes the answer more accurate, especially for math, logic, programming, etc.
-
+   ![chain](../images/chain.png)
 
 ## What least to most prompting?
 
