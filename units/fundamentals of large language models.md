@@ -118,13 +118,13 @@ Direct Prompt Injection
 
 Example:
 
-Low temperature (0.2): The cat sat on the mat.
+ *Low temperature (0.2): The cat sat on the mat.
 
-High temperature (1.5):
+ *High temperature (1.5):
 
-The cat danced across the rooftop.
+ The cat danced across the rooftop.
 
-The cat whispered secrets to the moon.
+ The cat whispered secrets to the moon.
 
 🔹 Summary: Higher temperature = more creativity, more variety.
 
@@ -138,16 +138,15 @@ The cat whispered secrets to the moon.
 
 
 ## What Meaning of Hallucination in LLMs?
+the model outputs incorrect or fabricated information, even if the question is clear.
 
-    the model outputs incorrect or fabricated information, even if the question is clear.
-
-    In other words, the model “makes up” answers or data that don’t exist or are wrong.
+In other words, the model “makes up” answers or data that don’t exist or are wrong.
 
  Examples
 
-*Asking the model for a famous person’s birth date → it gives an incorrect date.
+ *Asking the model for a famous person’s birth date → it gives an incorrect date.
 
-*Asking for a book name → it invents a book that doesn’t exist.
+ *Asking for a book name → it invents a book that doesn’t exist.
 
 ## Why Hallucination in LLMs happens?
 
