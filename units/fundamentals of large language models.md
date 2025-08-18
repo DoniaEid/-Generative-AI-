@@ -86,3 +86,27 @@ Step-back = see the big picture first.
 Least-to-Most = start simple, then add complexity.
 
 
+## What is Prompt Injection?
+
+   It’s a type of attack on AI models (LLMs).
+   The idea is that an attacker writes a prompt in a malicious or tricky way to change the model’s behavior and make it do something it shouldn’t.
+
+## Types of Prompt Injection:
+
+Direct Prompt Injection
+
+   * The attacker writes the malicious instructions directly in the prompt.
+
+   * Indirect Prompt Injection
+
+   * The malicious instructions are hidden in an external source (e.g., a webpage or PDF), and the model reads them by mistake and executes them.
+
+## Why is Prompt Injection dangerous?
+
+   * It can expose sensitive data (like API keys, passwords).
+
+   * It can alter the system’s behavior (give wrong or harmful answers).
+
+   * It can produce dangerous outputs (malicious code, harmful links).
+
+
