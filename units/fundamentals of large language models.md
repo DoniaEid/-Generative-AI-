@@ -9,6 +9,7 @@
     Input: "I love cats"
     Encoder output: [0.21, -0.57, 0.89, ...] (a vector that represents the meaning).
 
+
   ![encoder](../images/encoder.png)
 
 ## What is an Decoder?
@@ -24,6 +25,7 @@ A Decoder is a core component in AI models. Its role is to transform the latent 
 
   * In images: it generates pixels progressively until the complete image is formed.
 
+
   ![decoder](../images/decoder.png)
 
 
@@ -34,6 +36,7 @@ A Decoder is a core component in AI models. Its role is to transform the latent 
 
    * If you have Encoder + Decoder → you get a complete system: it understands + explains.
 
+
    ![decoder](../images/en_de.png)
 
 ## What Chain of Thought (CoT)?
@@ -43,6 +46,8 @@ A Decoder is a core component in AI models. Its role is to transform the latent 
    * Instead → it writes out or “thinks” through a series of logical steps.
 
    * This makes the answer more accurate, especially for math, logic, programming, etc.
+
+
    ![chain](../images/chain.png)
 
 ## What least to most prompting?
@@ -55,6 +60,7 @@ A Decoder is a core component in AI models. Its role is to transform the latent 
 
 👉 The more details you give in your prompt, the better and clearer the AI’s response will be.
 
+
  ![least](../images/least_most.png)
 
 
@@ -66,6 +72,7 @@ Then it solves the problem as a whole or connects its parts together.
 It’s useful when the task requires broad reasoning or a more holistic view rather than just step-by-step solving.
 
 🔹 Like a teacher who says: “Wait… before we start, let’s look at the general idea and then go into the solution.”
+
 
 
  ![least](../images/step_back.png)
