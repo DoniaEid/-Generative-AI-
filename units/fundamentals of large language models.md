@@ -118,9 +118,9 @@ High temperature → more creative/diverse text
 
 Example:
 
-    * Low temperature (0.2): The cat sat on the mat.
+     Low temperature (0.2): The cat sat on the mat.
 
-    * High temperature (1.5):
+     High temperature (1.5):
 
           * The cat danced across the rooftop.
 
