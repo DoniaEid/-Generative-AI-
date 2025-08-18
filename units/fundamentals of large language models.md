@@ -122,9 +122,9 @@ Example:
 
      High temperature (1.5):
 
-          * The cat danced across the rooftop.
+           The cat danced across the rooftop.
 
-          * The cat whispered secrets to the moon.
+           The cat whispered secrets to the moon.
 
 🔹 Summary: Higher temperature = more creativity, more variety.
 
