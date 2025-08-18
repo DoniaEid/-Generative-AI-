@@ -110,7 +110,7 @@ Direct Prompt Injection
    * It can produce dangerous outputs (malicious code, harmful links).
 
 
-High temperature → more creative/diverse text
+  High temperature → more creative/diverse text
 
    * The model is less focused on the most probable word.
 
@@ -128,7 +128,7 @@ Example:
 
 🔹 Summary: Higher temperature = more creativity, more variety.
 
-## What Temperature Means in AI
+## What Temperature Means in AI?
 
    * It’s a number you set to control the model’s randomness when generating text.
 
@@ -139,7 +139,7 @@ Example:
 
 ## What Meaning of Hallucination in LLMs?
 
-    Hallucination = the model outputs incorrect or fabricated information, even if the question is clear.
+    the model outputs incorrect or fabricated information, even if the question is clear.
 
     In other words, the model “makes up” answers or data that don’t exist or are wrong.
 
@@ -151,11 +151,11 @@ Example:
 
 ## Why Hallucination in LLMs happens?
 
-    * The model relies on probabilities of the next words.
+ * The model relies on probabilities of the next words.
 
-    * If the context is unclear or the model is uncertain, it may choose an incorrect word or sentence → hallucination.
+ * If the context is unclear or the model is uncertain, it may choose an incorrect word or sentence → hallucination.
 
-    * The more precise and factual the information requested, the more accurate the output; the more vague or general the request, the higher the chance of hallucination.
+ * The more precise and factual the information requested, the more accurate the output; the more vague or general the request, the higher the chance of hallucination.
   
 
 FACT:
