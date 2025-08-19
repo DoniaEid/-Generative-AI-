@@ -24,3 +24,27 @@ The idea: each text or item is transformed into a set of numbers that represent 
   * Data comparison: Measure similarity between texts or items by calculating the distance between their vectors.
 
 ![embadding](../images/embadding.png)
+
+
+Sure! Here's the English version of your text:
+
+---
+
+## Top-k Sampling
+
+  * When the model chooses the next word, it picks from the **top k most probable words only.
+
+  * Example: If there are 10 possible words and k=3 → it will choose from the top 3 words only.
+
+  * Benefit: Reduces the chance of picking strange or inappropriate words, making the text more natural.
+
+![top_k](../images/top_k.png)
+## Top-p Sampling (Nucleus Sampling)
+
+  * Instead of a fixed number, the model chooses words whose **cumulative probability reaches p
+
+  * Example: If p=0.9 → it selects words that together account for 90% of the total probability.
+
+  * Benefit: More flexible than Top-k, because the choice depends on the actual probabilities of the words.
+
+![top_p](../images/top_p.png)
