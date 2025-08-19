@@ -194,3 +194,4 @@ Goal: Make the model not only generate text but also act intelligently to solve 
  ![least](../images/language_agents.png
 )
 
+OCI Generative AI Service
