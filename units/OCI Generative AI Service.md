@@ -23,4 +23,4 @@ The idea: each text or item is transformed into a set of numbers that represent 
 
   * Data comparison: Measure similarity between texts or items by calculating the distance between their vectors.
 
-![embadding] (../images/embadding.png)
+![embadding](../images/embadding.png)
