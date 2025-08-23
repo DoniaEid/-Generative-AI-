@@ -207,10 +207,9 @@ Example: identifying text length, number of paragraphs, linguistic patterns, or 
 
 
 
-
-| النقطة            | In-Context Learning                                                            | Few-Shot Fine-Tuning                                                                             |
-| ----------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
-| **كيفية التعلم**  | النموذج **يستنتج النمط مباشرة من الأمثلة في الـ prompt** أثناء كل استدعاء.     | النموذج **يتم تعديل أوزانه جزئيًا** لتعلم المهمة من أمثلة قليلة.                                 |
-| **تخزين المعرفة** | الأمثلة موجودة فقط في الـ prompt، النموذج **ما يحفظهاش** بعد انتهاء الاستدعاء. | الأمثلة تدخل في التدريب → النموذج **يحفظ النمط ويتذكره في المستقبل**.                            |
-| **إضافة أمثلة**   | تضيف الأمثلة كل مرة **في الـ prompt** عند الاستخدام.                           | تضيف الأمثلة مرة واحدة في Fine-Tuning → النموذج **يتعلم النمط تلقائيًا ويطبق على بيانات جديدة**. |
-| **الدقة**         | جيدة لكن محدودة لو الأمثلة قليلة جدًا أو معقدة.                                | أعلى دقة على المهمة نفسها بعد Fine-Tuning، خصوصًا مع بيانات متخصصة.                              |
+| Aspect                | In-Context Learning                                                                              | Few-Shot Fine-Tuning                                                                                              |
+| --------------------- | ------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------- |
+| **How it learns**     | The model **infers the pattern directly from the examples in the prompt** each time it’s called. | The model **partially updates its weights** to learn the task from a few examples.                                |
+| **Knowledge storage** | Examples exist only in the prompt, the model **does not remember them** after the call ends.     | Examples are part of the fine-tuning → the model **remembers the pattern for future use**.                        |
+| **Adding examples**   | Add examples **in the prompt each time** you use the model.                                      | Add examples once during fine-tuning → the model **learns the pattern and applies it automatically** to new data. |
+| **Accuracy**          | Good but limited if examples are few or complex.                                                 | Higher accuracy on the specific task after fine-tuning, especially with specialized data.                         |
