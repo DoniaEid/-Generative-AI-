@@ -140,12 +140,13 @@ You must provide examples in the prompt so that it can infer the pattern and app
 ## What k_shot?
   k-shot prompting means that you give the model k examples in the prompt before asking it to solve a new example.
 
-  * k = the number of examples in the prompt
+  k = the number of examples in the prompt
 
   * The goal: to help the model infer the pattern or rule from these examples
 
   * The more examples (k) you provide, the better the model understands the pattern and the lower the chance of error.
 
+![contest_learning](../images/contest_learning.png)
 
 
 
