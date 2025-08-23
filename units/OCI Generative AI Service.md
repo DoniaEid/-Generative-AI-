@@ -112,3 +112,9 @@ Example:
 
 
 ![Sentence Embedding](../images/Sentence_Embedding.png)
+
+
+## Empadding Model in Generative AI
+
+![empadding_model](../images/empadding_model.png)
+
