@@ -71,7 +71,16 @@ Example:
 ![emadding2](../images/empadding2.png)
 
 
+## Fact:
+   Embedding first 🎯
 
+     Any input (word, token, or item) is converted into a numerical vector.
+     This step transforms the raw data (text, ID, etc.) into a form that the computer can work with.
+
+   Encoder next 🧠
+
+   The encoder takes these vectors (the embeddings) and passes them through layers of neural networks (like attention, RNN, CNN…).
+   The goal is to extract a deeper representation that captures more meaning and context.
 
 
 
