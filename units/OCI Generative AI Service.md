@@ -68,7 +68,7 @@ Example:
   * But it is far from vector("car").
 
 
-![emadding2](../images/emadding2.png)
+![emadding2](../images/empadding2.png)
 
 
 
