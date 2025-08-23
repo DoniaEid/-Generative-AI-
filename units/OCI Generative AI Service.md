@@ -193,7 +193,7 @@ Useful to determine if sentences or paragraphs are related to the same meaning.
 
 
 
-## Large Meta Detected
+## Large Meta Detected(Base model meta LLma)
 
 "Meta" usually refers to metadata or characteristics of large texts.
 
@@ -204,3 +204,13 @@ Example: identifying text length, number of paragraphs, linguistic patterns, or 
 ![ai_cluster](../images/ai_cluster.png)
 
 
+
+
+
+
+| النقطة            | In-Context Learning                                                            | Few-Shot Fine-Tuning                                                                             |
+| ----------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
+| **كيفية التعلم**  | النموذج **يستنتج النمط مباشرة من الأمثلة في الـ prompt** أثناء كل استدعاء.     | النموذج **يتم تعديل أوزانه جزئيًا** لتعلم المهمة من أمثلة قليلة.                                 |
+| **تخزين المعرفة** | الأمثلة موجودة فقط في الـ prompt، النموذج **ما يحفظهاش** بعد انتهاء الاستدعاء. | الأمثلة تدخل في التدريب → النموذج **يحفظ النمط ويتذكره في المستقبل**.                            |
+| **إضافة أمثلة**   | تضيف الأمثلة كل مرة **في الـ prompt** عند الاستخدام.                           | تضيف الأمثلة مرة واحدة في Fine-Tuning → النموذج **يتعلم النمط تلقائيًا ويطبق على بيانات جديدة**. |
+| **الدقة**         | جيدة لكن محدودة لو الأمثلة قليلة جدًا أو معقدة.                                | أعلى دقة على المهمة نفسها بعد Fine-Tuning، خصوصًا مع بيانات متخصصة.                              |
