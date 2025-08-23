@@ -84,8 +84,18 @@ Example:
 
 
 
+## What Similarity?
+
+  Similarity measures how close or alike two embeddings (vectors) are in the vector space.
+  It tells us whether two items (words, images, users…) are semantically or contextually similar.
+
+## How it works
+
+  Each item is represented as a vector (embedding).
+
+  Closer vectors → higher similarity
+
+  Farther vectors → lower similarity
 
 
-
-
-
+![similarity](../images/similarity.png)
