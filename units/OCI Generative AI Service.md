@@ -84,12 +84,12 @@ Example:
 
 
 
-## What Similarity?
+## What semantic Similarity?
 
   Similarity measures how close or alike two embeddings (vectors) are in the vector space.
   It tells us whether two items (words, images, users…) are semantically or contextually similar.
 
-## How it works
+## How semantic Similarity works?
 
   Each item is represented as a vector (embedding).
 
@@ -99,3 +99,16 @@ Example:
 
 
 ![similarity](../images/similarity.png)
+
+
+
+## What Sentence Embedding ?
+
+  Sentence Embedding is a method of converting an entire sentence into a single numerical vector that represents the meaning of the whole sentence, instead of converting each word individually.
+
+  This vector captures the meaning and context of the sentence.
+
+  It allows the system to compare sentences and determine which ones are similar to each other.
+
+
+![Sentence Embedding](../images/Sentence_Embedding.png)
