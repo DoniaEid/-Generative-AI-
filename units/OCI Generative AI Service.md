@@ -79,8 +79,8 @@ Example:
 
    Encoder next 🧠
 
-   The encoder takes these vectors (the embeddings) and passes them through layers of neural networks (like attention, RNN, CNN…).
-   The goal is to extract a deeper representation that captures more meaning and context.
+     The encoder takes these vectors (the embeddings) and passes them through layers of neural networks (like attention, RNN, CNN…).
+     The goal is to extract a deeper representation that captures more meaning and context.
 
 
 
