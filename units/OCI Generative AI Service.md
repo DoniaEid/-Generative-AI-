@@ -48,3 +48,35 @@ Sure! Here's the English version of your text:
   * Benefit: More flexible than Top-k, because the choice depends on the actual probabilities of the words.
 
 ![top_p](../images/top_p.png)
+
+##What is an Embedding?
+
+     Embedding in Artificial Intelligence (AI) is a method of transforming data (such as words, images, or even users) into numerical vectors, so that a computer can understand and process them.
+
+     Example:
+
+      If we have a word like "cat" or "dog", the computer doesn’t actually understand words.
+
+      Embedding converts the word into a sequence of numbers (a vector) in a mathematical space (vector space).
+
+      These numbers represent the meaning of the word, so that words with similar meanings are located close to each other in that space.
+
+    For instance:
+
+     * vector("cat") is very close to vector("dog").
+
+     * But it is far from vector("car").
+
+
+     ![emadding2](../images/emadding2.png)
+
+
+
+
+
+
+
+
+
+
+
