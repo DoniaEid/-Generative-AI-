@@ -118,3 +118,29 @@ Example:
 
 ![empadding_model](../images/empadding_model.png)
 
+
+## What Context Learning?
+
+ In-Context Learning does not require any special code or library.
+
+ The main idea: the model infers the rule from the examples you provide in the text (prompt).
+
+ All you need is a large language model (LLM) like GPT, BERT, or Sentence-BERT.
+
+ You don’t need to write any training code; everything happens within the context of the question itself.
+
+
+## Key Point
+
+In In-Context Learning, the model does not know the pattern in advance the way a Supervised Model does.
+
+You must provide examples in the prompt so that it can infer the pattern and apply it to new examples.
+
+
+
+
+
+
+
+
+
