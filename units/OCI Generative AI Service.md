@@ -51,15 +51,15 @@ Sure! Here's the English version of your text:
 
 ## What is an Embedding?
 
-     Embedding in Artificial Intelligence (AI) is a method of transforming data (such as words, images, or even users) into numerical vectors, so that a computer can understand and process them.
+ Embedding in Artificial Intelligence (AI) is a method of transforming data (such as words, images, or even users) into numerical vectors, so that a computer can understand and process them.
 
-     Example:
+Example:
 
-      If we have a word like "cat" or "dog", the computer doesn’t actually understand words.
+  If we have a word like "cat" or "dog", the computer doesn’t actually understand words.
 
-      Embedding converts the word into a sequence of numbers (a vector) in a mathematical space (vector space).
+  Embedding converts the word into a sequence of numbers (a vector) in a mathematical space (vector space).
 
-      These numbers represent the meaning of the word, so that words with similar meanings are located close to each other in that space.
+  These numbers represent the meaning of the word, so that words with similar meanings are located close to each other in that space.
 
   For instance:
 
