@@ -138,6 +138,7 @@ You must provide examples in the prompt so that it can infer the pattern and app
 
 
 ## What k_shot?
+
   k-shot prompting means that you give the model k examples in the prompt before asking it to solve a new example.
 
   k = the number of examples in the prompt
@@ -148,7 +149,58 @@ You must provide examples in the prompt so that it can infer the pattern and app
 
 ![contest_learning](../images/contest_learning.png)
 
+## What Few-Shot Fine-Tuning?
+
+ is a method to customize a large language model (LLM) or any pre-trained model for a specific task, using only a small number of labeled examples.
+
+ Unlike traditional training, it does not require millions of data points.
+
+ The goal: to learn a new task or improve the model's performance on a specific task using a small amount of data.
+
+## What costum model endpoint?
+
+ Custom Model Endpoint is an interface (API) or access point that allows you to use a trained or customized model (Custom Model) directly online.
+
+ In other words, after you train your model or perform fine-tuning, you can deploy it as a service and call it from any application or program.
+
+ The model is then ready to answer queries or process data in real-time.
 
 
+
+## Large Coher Detected
+
+Meaning: The system detected a large text or document containing a logical and coherent sequence.
+
+Commonly used to evaluate the consistency of long texts or articles.
+
+
+
+## Small Coher Detected
+
+Similar to Large Coher, but for small texts or short sentences.
+
+Purpose: to check the consistency of meaning in short sentences or paragraphs.
+
+
+
+## Embed Coher Detected
+
+Here the system uses Embeddings (numeric vectors) to understand the text.
+
+Measures the degree of similarity or coherence between parts of the text using vector representations.
+
+Useful to determine if sentences or paragraphs are related to the same meaning.
+
+
+
+## Large Meta Detected
+
+"Meta" usually refers to metadata or characteristics of large texts.
+
+Large Meta Detected → detecting important metadata or features in a large document.
+
+Example: identifying text length, number of paragraphs, linguistic patterns, or organizational information in large texts.
+
+![ai_cluster](../images/ai_cluster.png)
 
 
