@@ -29,7 +29,7 @@ Instead of the model relying only on the knowledge it was trained on, RAG allows
 
 
 
-[!RAG](../images/RAG.jpg)
+[!RAG](../images/rag.jpg)
 
 
 
