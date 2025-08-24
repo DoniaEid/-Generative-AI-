@@ -213,3 +213,22 @@ Example: identifying text length, number of paragraphs, linguistic patterns, or 
 | **Knowledge storage** | Examples exist only in the prompt, the model **does not remember them** after the call ends.     | Examples are part of the fine-tuning → the model **remembers the pattern for future use**.                        |
 | **Adding examples**   | Add examples **in the prompt each time** you use the model.                                      | Add examples once during fine-tuning → the model **learns the pattern and applies it automatically** to new data. |
 | **Accuracy**          | Good but limited if examples are few or complex.                                                 | Higher accuracy on the specific task after fine-tuning, especially with specialized data.                         |
+
+
+
+
+
+
+## What is a Custom Model (CM) in AI?
+
+A Custom Model is an artificial intelligence model that is customized or built to serve a specific purpose or task.
+
+Instead of using a general model as-is, we make modifications or additional training so that it fits a specific domain (e.g., healthcare, e-commerce, customer service).
+
+
+
+
+
+
+
+
