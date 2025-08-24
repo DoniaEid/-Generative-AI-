@@ -54,5 +54,15 @@ Split Document:
 
 ![RAG](../images/read_split.png)
 
+## Semantic and embaddings
+
+Semantic here means the "meaning" or "concept" that the sentence carries.
+
+Embeddings are a numerical representation of the sentence in the form of a vector.
+
+When we calculate the distance or similarity between the embedding of a new sentence and the stored embeddings (for example, for each category), we can determine which existing category the new sentence is close to.
+
+In other words, the sentence belongs to or is classified into a certain group if its embedding is close to the stored embeddings of that group
 
 
+![embadding](../images/empadding_semantic.png)
