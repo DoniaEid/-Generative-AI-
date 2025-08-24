@@ -226,7 +226,25 @@ A Custom Model is an artificial intelligence model that is customized or built t
 Instead of using a general model as-is, we make modifications or additional training so that it fits a specific domain (e.g., healthcare, e-commerce, customer service).
 
 
+## Accuracy and Loss in Custom Models
 
+When designing or customizing an AI model, there are two very important metrics to evaluate its performance:
+
+Accuracy:
+
+This is the percentage of correct predictions the model makes out of the total.
+
+The higher the accuracy, the better the model performs the required task.
+
+Example: If the model is designed to detect spam emails, accuracy refers to the percentage of emails correctly classified as “Spam” or “Not Spam.”
+
+Loss:
+
+This is a measure of the error the model makes during prediction.
+
+The lower the loss, the better the model’s performance.
+
+Loss is usually used during training to adjust the model’s weights and improve it.
 
 
 
