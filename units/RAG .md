@@ -32,8 +32,27 @@ Instead of the model relying only on the knowledge it was trained on, RAG allows
 ![RAG](../images/rag_ai.png)
 
 
+Read and Split Document
 
+Literally, it means: "Read the document and split it."
 
+In the context of AI and RAG:
+
+Read Document:
+
+  * The program or system opens the document (PDF, Word, text, etc.) and reads its content.
+
+  * The goal is to extract all the text from the document.
+
+Split Document:
+
+  * After reading the text, it is divided into smaller chunks instead of handling the entire text at once.
+
+  * Reason: Most AI models cannot process a very long document all at once.
+
+  * Each small chunk is later stored in a database for retrieval (RAG).
+
+![RAG](../images/read_split.png)
 
 
 
