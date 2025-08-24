@@ -66,3 +66,17 @@ In other words, the sentence belongs to or is classified into a certain group if
 
 
 ![embadding](../images/empadding_semantic.png)
+
+
+
+## Comparing vector 
+  1-Dot product 
+  2-cosine product
+
+![embadding](../images/comparing_vector.png)
+
+
+
+
+
+
