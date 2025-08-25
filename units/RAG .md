@@ -115,3 +115,9 @@ Context understanding: it can distinguish between meanings (e.g., "Apple" as a f
 Keyword search = looks for the word itself.
 
 Semantic search = looks for the meaning behind the word.
+
+
+
+
+
+
