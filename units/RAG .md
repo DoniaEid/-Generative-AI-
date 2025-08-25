@@ -71,13 +71,47 @@ In other words, the sentence belongs to or is classified into a certain group if
 
 ## Comparing vector 
   1-Dot product 
-  
+
   2-cosine product
 
 ![embadding](../images/comparing_vector.png)
 
 
+Fact!
+
+Exactly! Many modern chatbots, especially those relying on extensive knowledge or diverse content, are built using RAG (Retrieval-Augmented Generation).
+
+RAG works by:
+
+Retrieval: Pulling relevant information from a database, documents, or other external sources.
+
+Augmented Generation: Using that retrieved information together with the model’s pre-trained knowledge to generate precise and useful responses.
+
+This way, the chatbot can answer questions even if the information wasn’t part of its original training.
 
 
 
+## Semantic search
+Semantic Search is an advanced type of search that focuses on the meaning (semantics) of words rather than just exact keyword matching.
 
+Instead of simply looking for the same keywords (like old Google search or plain SQL queries), semantic search tries to understand the context and intent behind the query to provide more accurate results.
+
+ Example:
+
+Keyword search: If you type "capital of Egypt", it will look for pages containing the exact words "capital" and "Egypt".
+
+Semantic search: It understands that you’re asking for the capital city and returns "Cairo", even if the word "capital" isn’t explicitly written on the page.
+
+## How semantic search works?
+
+NLP (Natural Language Processing): to understand the meaning of words.
+
+Embeddings: words and sentences are converted into numeric vectors, where similar meanings are placed close together in vector space.
+
+Context understanding: it can distinguish between meanings (e.g., "Apple" as a fruit vs. "Apple" as a company).
+
+ In short:
+
+Keyword search = looks for the word itself.
+
+Semantic search = looks for the meaning behind the word.
